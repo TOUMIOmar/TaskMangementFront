@@ -7,7 +7,7 @@ import {Provider} from 'react-redux'
 import store from './redux/store';
 import {BrowserRouter} from 'react-router-dom'
 import axios from 'axios';
-axios.defaults.baseURL="http://localhost:8081/api/v1"
+axios.defaults.baseURL="https://taskmanegementback.onrender.com/api/v1"
 
 
 
